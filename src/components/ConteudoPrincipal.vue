@@ -5,10 +5,15 @@ export default{
 
     data(){
         return{
-            ingredientes:  ['Alho', 'Manteiga', 'Oregano']
+            ingredientes:  [] as string[]
         }
     },
-    components: {SelecionarIngredientes, Tag}
+    components: {SelecionarIngredientes, Tag},
+    methods:{
+      adicionarIngrediente(ingrediente: string){
+        this.ingredientes.push(ingrediente)
+      }
+    }
 
 }
 </script>
@@ -31,7 +36,9 @@ export default{
       </p>
     </section>
 
-    <SelecionarIngredientes/>
+    <SelecionarIngredientes
+    @adicionar-ingrediente="ingredientes.push($event)"
+    />
 
    </main>
 </template>
