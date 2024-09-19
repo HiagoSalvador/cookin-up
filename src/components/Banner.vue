@@ -1,15 +1,20 @@
 <template>
-    <header class="banner">
-      <div class="apresentacao">
+  <header class="banner">
+    <div class="apresentacao">
+      <a href="/">
         <img src="../assets/logo.png" alt="Logo do Cookin' Up" class="logo">
+      </a>
+   
+
+
   
-        <!-- Parágrafo com as classes 'cabecalho-lg' e 'frase-cabecalho' -->
+        
         <p class="cabecalho-lg frase-cabecalho">
           <span class="texto-verde">Um banquete de ideias para</span>
           despertar o chef que há em você!
         </p>
   
-        <!-- Outro parágrafo com a classe 'subtitulo-lg' -->
+        
         <p class="subtitulo-lg">
           Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!
         </p>
