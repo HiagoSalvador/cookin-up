@@ -1,8 +1,8 @@
 <template>
-    <footer class="rodape paragrafo">
-      Desenvolvido por Alura | 2023 - Projeto fictício sem fins comerciais.
-    </footer>
-  </template>
+  <footer class="rodape paragrafo">
+    Projeto de estudo.
+  </footer>
+</template>
   
   <style scoped>
   .rodape {
