@@ -1,40 +1,54 @@
-# cookin-up
+# 🥗 Cookin UP
 
-This template should help get you started developing with Vue 3 in Vite.
+**Cooking Up** é um projeto interativo que permite aos usuários explorar receitas baseadas em uma lista de produtos previamente cadastrados. Ao selecionar certos ingredientes disponíveis, o sistema exibe as receitas que podem ser feitas com eles. 
 
-## Recommended IDE Setup
+![Site de filmes e séries](https://github.com/HiagoSalvador/cookin-up/blob/main/src/assets/cookin.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+---
 
-## Type Support for `.vue` Imports in TS
+## 🌟 Funcionalidades
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Listagem de categorias de produtos.
+- Seleção de ingredientes disponíveis.
+- Sugestão de receitas baseadas nos ingredientes selecionados.
+- Interface intuitiva para uma experiência de usuário fluida.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+---
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 📂 Estrutura do Projeto
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **`/interfaces`**: Contém as interfaces de tipo para categorias e receitas.
+- **`/services/api.ts`**: Gerencia as chamadas para buscar dados de categorias e receitas.
+- **`App.tsx`**: Componente principal do React.
+- **`public/index.html`**: Arquivo base do HTML para renderização.
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 🛠 Tecnologias Utilizadas
 
-### Compile and Hot-Reload for Development
+- **React.js**: Biblioteca para a construção da interface.
+- **TypeScript**: Linguagem utilizada para maior segurança e tipagem no desenvolvimento.
+- **Fetch API**: Utilizada para realizar as chamadas às APIs externas.
+- **CSS**: Estilização do projeto.
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
+## 🚀 Como Executar o Projeto
 
-```sh
-npm run build
-```
+### Pré-requisitos
+
+- Node.js instalado na máquina.
+
+### Passo a Passo
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/HiagoSalvador/cookin-up.git
+
+
+
+
+
+
+
